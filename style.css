@@ -309,6 +309,9 @@ header-scrolled {
 }
 
 .home-section > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 3rem;
   font-weight: 200;
   font-style: italic;
