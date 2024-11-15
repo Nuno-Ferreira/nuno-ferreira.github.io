@@ -16,6 +16,8 @@ export const NavLink = styled(Link)`
     text-decoration: none;
     padding: 0 1rem;
     height: 100%;
+    font-weight: bold;
+    font-size: 1.2rem;
     cursor: pointer;
     &.active {
         color: #4d4dff;
@@ -53,4 +55,5 @@ export const NavLogo = styled.img`
     width: 50px;
     height: 50px;
     margin-right: 10px;
+    border-radius: 50%;
 `;
