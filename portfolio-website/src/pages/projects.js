@@ -1,13 +1,14 @@
 import React from "react";
+import { PageContainer, PageDescription, PageTitle } from "../components/PageElements";
 
 const Projects = () => {
     return (
-        <div>
-            <h1>Projects</h1>
-            <p>
+        <PageContainer>
+            <PageTitle>Projects</PageTitle>
+            <PageDescription>
                 Projects will be displayed here.
-            </p>
-        </div>
+            </PageDescription>
+        </PageContainer>
     );
 };
 
