@@ -11,6 +11,8 @@ const Footer = () => {
                         <FooterLogo src={logo} />
                         Created with React.js
                     </FooterLink>
+                </FooterMenu>
+                <FooterMenu>
                     <FooterLink to="https://www.linkedin.com/in/nuno-ferreira-2950741b8/" target="_blank" activeStyle>
                         LinkedIn
                     </FooterLink>

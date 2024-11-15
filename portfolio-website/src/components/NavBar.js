@@ -7,10 +7,12 @@ const Navbar = () => {
         <>
             <Nav>
                 <NavMenu>
-                    <NavLogo src={headshot} />
                     <NavLink to="/" activeStyle>
-                        Home
+                    <NavLogo src={headshot} />
+                        Nuno Ferreira
                     </NavLink>
+                </NavMenu>
+                <NavMenu>
                     <NavLink to="/about" activeStyle>
                         About
                     </NavLink>
