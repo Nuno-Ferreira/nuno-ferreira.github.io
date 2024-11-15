@@ -8,6 +8,9 @@ const Projects = () => {
             <PageDescription>
                 Projects will be displayed here.
             </PageDescription>
+            <PageDescription>
+                Coming soon!
+            </PageDescription>
         </PageContainer>
     );
 };
