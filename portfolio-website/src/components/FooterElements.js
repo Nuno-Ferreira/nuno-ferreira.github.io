@@ -5,13 +5,12 @@ export const StyledFooter = styled.footer`
     background: #151F30;
     height: 60px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 1rem calc((100vw - 1000px) / 2);
+    padding: 1rem;
     position: fixed;
     bottom: 0;
     width: 100%;
-    z-index: 12;
 `;
 
 export const FooterLink = styled(Link)`
@@ -29,8 +28,8 @@ export const FooterLink = styled(Link)`
 
 export const FooterMenu = styled.div`
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin-right: -24px;
     @media screen and (max-width: 768px) {
         flex-direction: column;
         padding: 1rem 0;
