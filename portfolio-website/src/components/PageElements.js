@@ -4,7 +4,7 @@ export const PageContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     height: 100vh;
     background: #253653;
     color: #fff;
